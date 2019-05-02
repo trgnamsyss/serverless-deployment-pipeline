@@ -3,10 +3,10 @@ service: codedeploy # NOTE: update this with your service name
 provider:
   name: aws
 #  stage: dev
-  region: ap-southeast-2
+  region: ap-southeast-1
 
 custom:
-  DockerImageArn: <ACCOUNTID>.dkr.ecr.ap-southeast-2.amazonaws.com/codebuild-dotnet-node:latest
+  DockerImageArn: 618835003972.dkr.ecr.ap-southeast-1.amazonaws.com/codebuild-dotnet-node:latest
   DeploymentFilename: Deployment.zip
 
 resources:
